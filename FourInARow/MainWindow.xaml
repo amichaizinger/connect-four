@@ -91,10 +91,10 @@ FontFamily="Arial"/>
                 <!-- Close Button -->
                 <Button Content="X" HorizontalAlignment="Right" VerticalAlignment="Top" Width="30" Height="30" Margin="5" Background="Red" Foreground="White" FontWeight="Bold" Click="ClosePopupButton_Click"/>
                 <!-- Fireworks Video -->
-                <MediaElement Name="FireworksMedia" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Width="Auto" Height="Auto" Visibility="Collapsed" MediaEnded="FireworksMedia_MediaEnded" LoadedBehavior="Manual">
+                <MediaElement Name="FireworksMedia" Width="Auto" Height="Auto" Visibility="Collapsed" MediaEnded="FireworksMedia_MediaEnded" LoadedBehavior="Manual">
                     <MediaElement.Source>
 
-                        <system:Uri>file:///C:\Users\sharo\source\repos\FourInARow\FourInARow\Repository\2me.mp4</system:Uri>
+                        <system:Uri>file:///C:\Users\sharo\source\repos\FourInARow\FourInARow\Repository\me.mp4</system:Uri>
 
                     </MediaElement.Source>
                 </MediaElement>
